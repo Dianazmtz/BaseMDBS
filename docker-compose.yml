@@ -2,7 +2,7 @@ version: "3"
 services:
   strapi:
     container_name: tc1-2024a
-    image: strapi/strapi
+    image: strapi/strapi:latest
     environment:
       - DATABASE_CLIENT=mongo
       - DATABASE_HOST=tc1-2024a.qfqoyi6.mongodb.net
